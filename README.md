@@ -6,7 +6,7 @@
  <li>les fonctionnalités de l'application</li>
  <li>L'authentification</li>
  <li>Page d'acceuil</li>
- <li>Ajouter Patient</li>
+ <li>Modifier un patient</li>
  </ul>
  <h3> La logique du JPA</h3>
  JPA (Java Persistence API) est une API Java standardisée qui fournit un cadre pour la gestion de la persistance des données. La logique du JPA repose sur la définition d'entités, qui sont des objets Java qui représentent les tables d'une base de données relationnelle. Les entités sont mappées aux tables de la base de données, ce qui permet de faciliter la création, la mise à jour et la suppression des données.
@@ -31,4 +31,8 @@ Pour accéder à l'interface il suffit de se connecter soir autant qu'admin2 ou 
 <h3> Page d'acceuil</h3>
 Cette page est sous forme d'une liste des patients avec diffétents attributs tel que id,nom,date,score et malade.On peut chercher des patients à travers leurs nom pour mieux faciliter la recherche au sein de l'application;il existe d'autres options tel que la modification des attributs et la suppression des patients.<br>
 ![App](image/acc.PNG)
+<h3> Modifier un patient</h3>
+Pour modifier un patient existant dans la liste il suffit de taper sur l'icone modifier et changer les données de ce formulaire ,après vous taper sur save afin d'enregistrer les modifications souhaités.<br>
+![App](../image/mod.PNG)
+Et pour la suppression il suffit de taper sur l'icone supprimer et de confirmer la tache dans le but de supprimer le patient.
 
