@@ -25,5 +25,5 @@ Il convient de noter que seuls les administrateurs auront accès aux opérations
 
 L'application sera conçue de manière modulaire et extensible en suivant les principes d'une application fermée à la modification et ouverte à l'extension. Elle sera également sécurisée, en utilisant l'authentification et l'autorisation pour garantir que seuls les utilisateurs autorisés peuvent effectuer des opérations de gestion des patients.
 <h3> L'authentification</h3>
-![App Screenshot](./image/Auth.png)
+![App](image/adm.PNG)
 
