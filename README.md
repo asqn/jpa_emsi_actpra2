@@ -25,7 +25,7 @@ Il convient de noter que seuls les administrateurs auront accès aux opérations
 
 L'application sera conçue de manière modulaire et extensible en suivant les principes d'une application fermée à la modification et ouverte à l'extension. Elle sera également sécurisée, en utilisant l'authentification et l'autorisation pour garantir que seuls les utilisateurs autorisés peuvent effectuer des opérations de gestion des patients.
 <h3> L'authentification</h3>
-![App](/image/acc.PNG)<br>
+<img src="/image/acc.PNG"/>
 En utilisant Spring Security, nous avons implémenté un système d'authentification solide qui garantit que seuls les utilisateurs autorisés peuvent accéder à notre application. Nous avons également mis en place des fonctionnalités avancées, telles que la gestion des rôles et des autorisations, afin de garantir que les utilisateurs ne peuvent accéder qu'aux ressources qui leur sont spécifiquement autorisées.
 Pour accéder à l'interface il suffit de se connecter soir autant qu'admin2 ou user11 et taper le password 1234.
 <h3> Page d'acceuil</h3>
