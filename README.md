@@ -5,7 +5,7 @@
  <li> La logique du JPA</li>
  <li>les fonctionnalités de l'application</li>
  <li>L'authentification</li>
- <li>Liste des Patients</li>
+ <li>Page d'acceuil</li>
  <li>Ajouter Patient</li>
  </ul>
  <h3> La logique du JPA</h3>
@@ -26,4 +26,8 @@ Il convient de noter que seuls les administrateurs auront accès aux opérations
 L'application sera conçue de manière modulaire et extensible en suivant les principes d'une application fermée à la modification et ouverte à l'extension. Elle sera également sécurisée, en utilisant l'authentification et l'autorisation pour garantir que seuls les utilisateurs autorisés peuvent effectuer des opérations de gestion des patients.
 <h3> L'authentification</h3>
 ![App](https://github.com/asqn/unsecured-hospital-app/blob/main/image/adm.PNG)
+En utilisant Spring Security, nous avons implémenté un système d'authentification solide qui garantit que seuls les utilisateurs autorisés peuvent accéder à notre application. Nous avons également mis en place des fonctionnalités avancées, telles que la gestion des rôles et des autorisations, afin de garantir que les utilisateurs ne peuvent accéder qu'aux ressources qui leur sont spécifiquement autorisées.
+Pour accéder à l'interface il suffit de se connecter soir autant qu'admin2 ou user11 et taper le password 1234.
+<h3> Page d'acceuil</h3>
+Cette page est sous forme d'une liste des patients avec diffétents attributs tel que id,nom,date,score et malade.On peut chercher des patients à travers leurs nom pour mieux faciliter la recherche au sein de l'application;il existe d'autres options tel que la modification des attributs et la suppression des patients
 
